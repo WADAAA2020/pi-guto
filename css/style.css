@@ -50,14 +50,6 @@ body{
     border-radius: 10px;
 }
 
-.imagem-banner{
-    width: 250px;
-    height: 400px;
-    object-fit: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .banner{
     background-color: #3b45f0;
     text-align: center;
@@ -72,11 +64,13 @@ body{
     background-color: #eb6c07;
     color: #fff;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     padding-top: 20px;  
     padding-bottom: 20px;
     padding-left: 30px; 
-    padding-right: 30px;  
+    padding-right: 30px; 
+    
+    
 }
 
 .titulo{
@@ -92,4 +86,40 @@ font-size: 20px;
     border-radius: 300%;
     width: 300px;
     object-fit: cover;
+}
+
+.parceiros{
+    background-color: #3b45f0;
+    color: #fff;
+    text-align: center;  
+}
+
+.contatos{
+    background-color: #eb6c07;
+    color: #fff;
+    display: block; 
+    text-align: center;  
+}
+
+.redes-sociais{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais a{
+    font-size: 55px;
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo-parceiros{
+    left: 30px;
+    bottom: 30px;
+}
+
+.texto{
+    width: 300px;
 }
